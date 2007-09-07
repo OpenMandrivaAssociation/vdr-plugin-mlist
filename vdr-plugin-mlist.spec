@@ -1,17 +1,17 @@
 
 %define plugin	mlist
 %define name	vdr-plugin-%plugin
-%define version	0.0.3
-%define rel	10
+%define version	0.0.4
+%define rel	1
 
 Summary:	VDR plugin: Displays the message history
 Name:		%name
 Version:	%version
 Release:	%mkrel %rel
 Group:		Video
-License:	GPL
+License:	GPL+
 URL:		http://joachim-wilke.de/vdr-mlist.htm
-Source:		vdr-%plugin-%version.tar.bz2
+Source:		vdr-%plugin-%version.tgz
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	vdr-devel >= 1.4.1-6
 Requires:	vdr-abi = %vdr_abi
