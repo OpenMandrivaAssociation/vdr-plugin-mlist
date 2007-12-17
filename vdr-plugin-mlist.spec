@@ -12,7 +12,6 @@ Group:		Video
 License:	GPL+
 URL:		http://joachim-wilke.de/vdr-mlist.htm
 Source:		vdr-%plugin-%version.tgz
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	vdr-devel >= 1.4.1-6
 Requires:	vdr-abi = %vdr_abi
 
