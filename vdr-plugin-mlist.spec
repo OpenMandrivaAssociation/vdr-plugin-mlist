@@ -1,8 +1,8 @@
 
 %define plugin	mlist
 %define name	vdr-plugin-%plugin
-%define version	0.0.4
-%define rel	3
+%define version	0.0.5
+%define rel	1
 
 Summary:	VDR plugin: Displays the message history
 Name:		%name
@@ -13,7 +13,7 @@ License:	GPL+
 URL:		http://joachim-wilke.de/vdr-mlist.htm
 Source:		vdr-%plugin-%version.tgz
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	vdr-devel >= 1.4.1-6
+BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
 
 %description
@@ -23,6 +23,7 @@ startup.
 %prep
 %setup -q -n %plugin-%version
 chmod 0644 README HISTORY
+%vdr_plugin_prep
 
 %build
 %vdr_plugin_build
@@ -43,5 +44,3 @@ rm -rf %{buildroot}
 %files -f %plugin.vdr
 %defattr(-,root,root)
 %doc README HISTORY
-
-
