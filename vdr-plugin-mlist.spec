@@ -1,8 +1,8 @@
 
 %define plugin	mlist
 %define name	vdr-plugin-%plugin
-%define version	0.0.5
-%define rel	3
+%define version	1.0.1
+%define rel	1
 
 Summary:	VDR plugin: Displays the message history
 Name:		%name
