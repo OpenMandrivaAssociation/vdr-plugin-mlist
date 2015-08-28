@@ -3,7 +3,7 @@
 Summary:	VDR plugin: Displays the message history
 Name:		vdr-plugin-%plugin
 Version:	1.0.1
-Release:	4
+Release:	5
 Group:		Video
 License:	GPL+
 URL:		http://joachim-wilke.de/vdr-mlist.htm
