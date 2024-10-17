@@ -6,7 +6,7 @@ Version:	1.0.1
 Release:	5
 Group:		Video
 License:	GPL+
-URL:		http://joachim-wilke.de/vdr-mlist.htm
+URL:		https://joachim-wilke.de/vdr-mlist.htm
 Source:		vdr-%plugin-%{version}.tgz
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
